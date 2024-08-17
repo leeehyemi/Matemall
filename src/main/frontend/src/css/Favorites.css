@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    font-family: 'BMJUA';
+}
+
+.nav-menu {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-button {
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    font-family: 'BMJUA';
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #333;
+    color: white;
+}
+
+.logout {
+    border: none;
+    color: #2f7ae4;
+}
+
+.favorites-container {
+    padding: 20px;
+}
+
+.favorites-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* 간격을 약간 줄였습니다 */
+}
+
+.favorite-item {
+    flex: 1 1 calc(25% - 15px); /* 한 줄에 4개씩 표시되도록 설정 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.favorite-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    max-height: 180px; /* 이미지 높이 제한 추가 */
+}
+
+.favorite-item p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333;
+    font-family: 'BMJUA';
+}
+
+.favorite-item a {
+    color: #007BFF;
+    text-decoration: none;
+    font-family: 'BMJUA';
+}
+
+.favorite-item a:hover {
+    text-decoration: underline;
+}
+
+.title2 {
+    margin-top: 30px;
+    font-family: 'BMJUA';
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    width: 50%;
+    max-width: 600px;
+    max-height: 80%;
+    overflow-y: auto;
+    border-radius: 8px;
+}
+
+.popup-inner {
+    text-align: center;
+}
+
+.popup-inner h3 {
+    margin-bottom: 20px;
+    font-family: 'BMJUA';
+}
+
+.related-products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.related-products p {
+    font-family: 'BMJUA';
+}
+
+.related-products a {
+    font-family: 'BMJUA';
+}
+.related-item {
+    flex: 1 1 calc(33.333% - 16px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.related-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.popup-inner button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #d0dff0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'BMJUA';
+}
+
+.popup-inner button:hover {
+    background-color: #0056b3;
+}
+
+.favorite-item button {
+    background-color: #d0dff0;
+    margin-left: 10px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+    font-family: 'BMJUA';
+}

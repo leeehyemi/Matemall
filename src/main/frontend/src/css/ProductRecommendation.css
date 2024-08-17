@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    font-family: 'BMJUA';
+}
+
+.nav-menu {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-button {
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    font-family: 'BMJUA';
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #333;
+    color: white;
+}
+
+.logout {
+    border: none;
+    color: #2f7ae4;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* 아이템 간의 간격 */
+}
+
+.product-item {
+    flex: 1 1 calc(20% - 16px); /* 한 줄에 5개 배치, 간격 고려 */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.tile1 {
+    margin-left: 10px;
+    font-family: 'BMJUA';
+}
+
+.favorite-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: point
+}
+
+.favorite-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.social-button {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    margin-left:5px;
+}
+
+.social-button img {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-left:5px;
+}
+

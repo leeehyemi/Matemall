@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.home-container {
+  text-align: center;
+  padding: 100px;
+  background-color: #cbe8f0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-main {
+    width: 400px;
+    height: 500px;
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 10px 0;
+  cursor: pointer;
+  font-family: 'BMJUA';
+  width: 150px;
+  border-radius: 25px;
+}
+
+.home-button:hover {
+  background-color: #fff;
+  color: #66bcfe;
+}
